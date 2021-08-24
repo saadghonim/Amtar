@@ -110,7 +110,7 @@ $(document).ready(function(){
           navText: ["<i class='fas fa-angle-right'></i>", "<i class='fas fa-angle-left'></i>"],
           responsive: {
               0: {
-                  items: 2
+                  items: 3
               },
               600: {
                   items: 3
