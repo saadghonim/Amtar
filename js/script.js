@@ -33,38 +33,7 @@ $(document).ready(function(){
     })
   };
 
-  /* ************************end navbar******************* */
 
-  /* ************************start new******************* */
-  if ($(window).width() <= 1200){
-    $(".new").addClass("owl-carousel");
-    $(".div_item").addClass("item");
-    $('.new.owl-carousel').owlCarousel({
-      loop: true,
-      margin: 10,
-      nav: true,
-      rtl: true,
-      autoplay: true,
-      responsive: {
-          0: {
-              items: 2,
-          },
-          600: {
-              items: 3
-          },
-          1000: {
-              items: 5
-          }
-      }
-  })
-
-  }else{
-    $(".new").removeClass("owl-carousel");
-    $(".div_item").removeClass("item");
-  }
-
-
-  /* ************************end new******************* */
 
       /* ************************start slider******************* */
 
@@ -129,6 +98,42 @@ $(document).ready(function(){
     /* ****************************************************
     ***************************end caragory*************
      **************************************************** */
+
+
+      /* ************************end navbar******************* */
+
+  /* ************************start new******************* */
+  if ($(window).width() <= 1200){
+    $(".new").addClass("owl-carousel");
+    $(".div_item").addClass("item");
+
+  }else{
+    $(".new").removeClass("owl-carousel");
+    $(".div_item").removeClass("item");
+  }
+
+  $('.new.owl-carousel').owlCarousel({
+    loop: true,
+    nav: true,
+    margin: 15,
+    rtl: true,
+    autoplay: true,
+    rtl: $("html").attr("dir") == "rtl" ? true : false,
+    navText: ["<i class='fas fa-angle-right'></i>", "<i class='fas fa-angle-left'></i>"],
+    responsive: {
+        0: {
+            items: 2
+        },
+        600: {
+            items: 4
+        },
+        1000: {
+            items: 5
+        }
+    }
+});
+  /* ************************end new******************* */
+
 
     /********************************************************
      ************************start most_viewed******************* */
