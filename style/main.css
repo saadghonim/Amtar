@@ -1368,6 +1368,9 @@ html[dir="ltr"] .div_item .price span{
 .bt_div_new{
 width: 140px;
 }
+.bt_new {
+  height: 42px;
+}
 .title_logo span{
   font-size: 25px;
 }
