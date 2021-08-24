@@ -850,7 +850,7 @@ margin-right: 3px;
       margin-left: 8px;
   }
   .bt_user {
-      height: 30px;
+      height: 35px;
       width: 35px;
   }
   .angle_nav {
@@ -1607,7 +1607,7 @@ html[dir="ltr"] .brands .owl-next {
   .brands .owl-dots {
       display: block;
       position: absolute;
-      bottom: -15px;
+      bottom: -25px;
       transform: translatex(-50%);
       font-size: 18px;
       color: rgb(255, 255, 255);
@@ -2056,6 +2056,7 @@ html[dir="ltr"] .copy_p img {
   }
   .visa{
     margin-bottom: 10px;
+    max-width: 100%;
   }
 }
 /* ````````````````````````````````````````
