@@ -586,7 +586,7 @@ html[dir="ltr"] .modal-header .close {
   width: 100%;
   border: none;
   background-color: transparent;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid rgb(255, 255, 255);
   height: 50px;
   padding-left: 20px;
   color: #ffffff;
@@ -1056,8 +1056,11 @@ html[dir="ltr"] .slider .owl-next {
   .anc_category{
     margin:auto;
     height: auto;
-  }
 
+  }
+.categoery {
+  margin-bottom: 50px;
+}
 }
 @media(max-width:567px){
   .anc_category{
@@ -1318,6 +1321,9 @@ html[dir="ltr"] .div_item .price span{
   -webkit-opacity: 1;
   right: 50%;
 }
+.new .owl-nav{
+  display: none;
+}
 @media(max-width:767px){
 
   .anc_new_name{
@@ -1348,6 +1354,38 @@ width: 140px;
 }
 .title_logo span{
   font-size: 25px;
+}
+.new .owl-dots {
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  transform: translatex(-50%);
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+html[dir="rtl"] .new .owl-dots {
+  left: 50%;
+}
+html[dir="ltr"] .new .owl-dots {
+  left: 50%;
+}
+.new .owl-carousel button.owl-dot {
+  background-color: rgb(201, 201, 201);
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+html[dir="rtl"] .new .owl-carousel button.owl-dot {
+  margin-left: 5px;
+}
+html[dir="ltr"] .new .owl-carousel button.owl-dot {
+  margin-right: 5px;
+}
+.new .owl-carousel button.owl-dot.active {
+  background-color: rgb(193, 0, 0);
+}
+.new .owl-nav{
+  display: none;
 }
 }
 /* ********************************************* 
@@ -1701,9 +1739,6 @@ html[dir="ltr"] .fa-envelope {
   left: 20px;
 }
 
-
-
-
 html[dir="ltr"] .bt_input i {
   transform: rotate( 360deg);
 }
@@ -1711,7 +1746,6 @@ html[dir="ltr"] .bt_input i {
 .input_div input::placeholder {
   color: rgb(117, 117, 117);
 }
-
 
 @media (max-width: 767px) {
   .Newsletter {
@@ -1726,6 +1760,9 @@ html[dir="ltr"] .bt_input i {
   }
   .Newsletter {
       padding: 50px 0 40px;
+  }
+  .Newsletter .div_text span{
+    font-size: 20px;
   }
 
 }
@@ -1868,10 +1905,9 @@ html[dir="ltr"] .f_list .nest_list li a{
 }
 footer .down_f :hover{
   text-decoration: none;
+  margin-bottom: 10px;
 }
-footer .f_list {
-  padding-top: 20px;
-}
+
 footer .f-bottom{
   text-align: center;
   
@@ -1886,7 +1922,7 @@ footer .f-bottom{
 footer .f_list {
   padding: 0; 
   text-align: center;
-  margin-bottom: 40px;
+  padding-bottom: 20px;
 }
 }
 @media(max-width:991px){

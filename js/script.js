@@ -45,11 +45,9 @@ $(document).ready(function(){
       nav: true,
       rtl: true,
       autoplay: true,
-      navText: ["<i class='fas fa-angle-right'></i>", "<i class='fas fa-angle-left'></i>"],
       responsive: {
           0: {
               items: 2,
-              margin:15
           },
           600: {
               items: 3
