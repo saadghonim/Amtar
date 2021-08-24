@@ -1411,6 +1411,12 @@ html[dir="ltr"] .new .owl-carousel button.owl-dot {
 .new .owl-nav{
   display: none;
 }
+html[dir="rtl"] .div_item .price span{
+  margin-left: 0px;
+}
+html[dir="ltr"] .div_item .price span{
+  margin-left: 0px;
+}
 }
 /* ********************************************* 
 ***************end new**********************
