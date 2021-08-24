@@ -103,7 +103,7 @@ $(document).ready(function(){
       $('.categoery.owl-carousel').owlCarousel({
           loop: true,
           nav: true,
-          margin: 10,
+          margin: 5,
           rtl: true,
           autoplay: true,
           rtl: $("html").attr("dir") == "rtl" ? true : false,
@@ -113,7 +113,7 @@ $(document).ready(function(){
                   items: 3
               },
               600: {
-                  items: 3
+                  items: 4
               },
               1000: {
                   items: 5
